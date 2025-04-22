@@ -3,6 +3,7 @@
 
 int par_impar(int a);
 int cont_digitos(int a);
+void SemaforoColores();
 
 
 #endif
