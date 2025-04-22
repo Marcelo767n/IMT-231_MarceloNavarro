@@ -39,3 +39,26 @@ void SemaforoColores() {
             break;
     }
 }
+//acumulador de valores positivos   
+#include <stdio.h>
+
+// Declaración de la función (puede ir también en un .h si quieres aún más organizado)
+void acumular_positivos() {
+    int numero = 0;
+    int suma = 0;
+
+    printf("Acumulador de valores positivos.\n");
+    printf("Introduce números (un número negativo para terminar):\n");
+
+    while (1) {
+        printf("Número: ");
+        scanf("%d", &numero);
+
+        if (numero < 0) {
+            break;
+        }
+        suma += numero;
+    }
+
+    printf("La suma de los números positivos es: %d\n", suma);
+}

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "funciones.h"
-
+// par o impar 
 int main(){
     int num=0;
     while (1){
