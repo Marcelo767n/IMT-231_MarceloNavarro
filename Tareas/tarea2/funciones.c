@@ -11,3 +11,12 @@ int par_impar(int a){
     }
     return 0;
 }
+int cont_digitos(int a){
+    int cont=0;
+    while (a>0){
+        a=a/10;
+        cont++;
+    }
+    printf("el numero tiene %d digitos\n", cont);
+    return cont;
+}
