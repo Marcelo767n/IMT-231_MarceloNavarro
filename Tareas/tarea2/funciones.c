@@ -62,3 +62,32 @@ void acumular_positivos() {
 
     printf("La suma de los números positivos es: %d\n", suma);
 }
+void sumar() {
+    float a, b, resultado;
+    printf("Ingrese el primer número: ");
+    scanf("%f", &a);
+    printf("Ingrese el segundo número: ");
+    scanf("%f", &b);
+    resultado = a + b;
+    printf("Resultado: %.2f + %.2f = %.2f\n", a, b, resultado);
+}
+
+void restar() {
+    float a, b, resultado;
+    printf("Ingrese el primer número: ");
+    scanf("%f", &a);
+    printf("Ingrese el segundo número: ");
+    scanf("%f", &b);
+    resultado = a - b;
+    printf("Resultado: %.2f - %.2f = %.2f\n", a, b, resultado);
+}
+
+void multiplicar() {
+    float a, b, resultado;
+    printf("Ingrese el primer número: ");
+    scanf("%f", &a);
+    printf("Ingrese el segundo número: ");
+    scanf("%f", &b);
+    resultado = a * b;
+    printf("Resultado: %.2f * %.2f = %.2f\n", a, b, resultado);
+}
