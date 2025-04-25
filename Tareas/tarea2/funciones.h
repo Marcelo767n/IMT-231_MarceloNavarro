@@ -8,4 +8,9 @@ void acumular_positivos();
 void sumar();
 void restar();
 void multiplicar();
+void compararNumeros(int a, int b);
+int esMultiploDe3(int num);
+int factorial(int n);
+int invertirNumero(int num);
+
 #endif

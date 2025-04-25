@@ -91,3 +91,34 @@ void multiplicar() {
     resultado = a * b;
     printf("Resultado: %.2f * %.2f = %.2f\n", a, b, resultado);
 }
+
+void compararNumeros(int a, int b) {
+    if (a > b)
+        printf("El primer número %d es mayor que el segundo %d\n", a, b);
+    else if (a < b)
+        printf("El segundo número %d es mayor que el primero %d\n", b, a);
+    else
+        printf("Ambos números son iguales: %d\n", a);
+}
+
+
+int esMultiploDe3(int num) {
+    return num % 3 == 0;
+}
+
+
+int factorial(int n) {
+    int f = 1;
+    for (int i = 1; i <= n; i++)
+        f *= i;
+    return f;
+}
+
+int invertirNumero(int num) {
+    int invertido = 0;
+    while (num > 0) {
+        invertido = invertido * 10 + num % 10;
+        num /= 10;
+    }
+    return invertido;
+}
