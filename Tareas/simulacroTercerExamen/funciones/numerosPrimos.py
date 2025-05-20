@@ -11,3 +11,4 @@ def contadorPrimos(n):
         if esPrimo:
             contador+=1
     return contador
+    
