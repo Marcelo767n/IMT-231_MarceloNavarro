@@ -1,0 +1,2 @@
+from contadorNumeros import contar_numeros, numerosTerminanEnTres
+import 
