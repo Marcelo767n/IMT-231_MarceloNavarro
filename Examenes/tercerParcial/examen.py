@@ -34,5 +34,7 @@ while True:
         fibonacciInversa(n)
     elif opcion==5:
         print("saliendo del programa...")
-        break
 
+        break
+    else:
+        print("opcion no valida")
