@@ -5,5 +5,4 @@ def serie(n):
             print(f"{-i}", end=", ")
         else:
             print(i, end=", ")
-    print()  
-serie(10)
+    print()

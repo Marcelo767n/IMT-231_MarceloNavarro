@@ -1,4 +1,4 @@
-from .contadorNumeros import contar_numeros, numerosTerminanEnTres
+from .contadorNumeros import menuContador
 from .piramideAsteriscos import piramide
 from .serie import serie
 from .numerosPrimos import contadorPrimos

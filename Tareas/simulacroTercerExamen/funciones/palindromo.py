@@ -1,5 +1,5 @@
 #5. Verificar si un número es palíndromo (número capicúa).
-def veridPalindromo(n):
+def verifPalindromo(n):
     num=str(n)#converitmos el numero a string
     inverido=num[::-1]#invertimos el string
     if num==inverido:#comparamos el string original con el invertido
