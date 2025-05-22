@@ -1,0 +1,38 @@
+.
+├── build
+│   └── examen
+│       ├── Analysis-00.toc
+│       ├── base_library.zip
+│       ├── examen.pkg
+│       ├── EXE-00.toc
+│       ├── localpycs
+│       │   ├── pyimod01_archive.pyc
+│       │   ├── pyimod02_importers.pyc
+│       │   ├── pyimod03_ctypes.pyc
+│       │   └── struct.pyc
+│       ├── PKG-00.toc
+│       ├── PYZ-00.pyz
+│       ├── PYZ-00.toc
+│       ├── warn-examen.txt
+│       └── xref-examen.html
+├── dist
+│   └── examen
+├── environment.yml
+├── estructura.txt
+├── examen.py
+├── examen.spec
+├── ExamenTercerElemento.pdf
+└── funciones
+    ├── divisores.py
+    ├── fibonacci.py
+    ├── __init__.py
+    ├── numerosPrimos.py
+    ├── __pycache__
+    │   ├── divisores.cpython-312.pyc
+    │   ├── fibonacci.cpython-312.pyc
+    │   ├── __init__.cpython-312.pyc
+    │   ├── numerosPrimos.cpython-312.pyc
+    │   └── trianguloLetras.cpython-312.pyc
+    └── trianguloLetras.py
+
+7 directories, 29 files

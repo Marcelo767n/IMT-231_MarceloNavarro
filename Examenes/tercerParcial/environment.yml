@@ -1,0 +1,8 @@
+name: P3py
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.11
+  - pyinstaller
+prefix: /home/marcelo767/miniconda3/envs/P3py
