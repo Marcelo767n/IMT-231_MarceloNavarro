@@ -8,7 +8,3 @@ def fibonacci_inversa(n):
     fib_i=fib[::-1]
     print(fib_i)
     # Imprimimos en orden inverso
-    for numero in reversed(fib):
-        print(numero)
-
-fibonacci_inversa(5)

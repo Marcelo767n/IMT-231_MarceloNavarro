@@ -4,5 +4,3 @@ def sumaDivisores(n):
         if n % i == 0:
             suma += i
     return suma
-
-print(sumaDivisores(4))
